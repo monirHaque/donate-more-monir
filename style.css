@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.text-box{
+
+    width: 90%;
+    color: azure;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 65px;
+}
+
+.text-box p{
+    margin: 10px 0 40px ;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+button{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: #FF5959;
+    position: relative;
+
+}
+
+.donate{
+    width: 50%;
+    margin: auto;
+    position: center;
+    padding-top: 50px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.donate h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+
+.donate p{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.card{
+    width: 10%;
+    background: #ffffff;
+    margin-bottom: 50px;
+}
+
+.card-first{
+    text-align: center;
+    margin-left: 10px;
+    padding: 30px 10px 20px 10px;
+    padding-left: 10px 0px;
+    background-color: #FAFAFA;
+    color: rgb(0, 0, 0);
+}
+
+.card-second{
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
+
+.card-third{
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+    background-color: #FAFAFA;
+    color: rgb(0, 0, 0);
+}
+
+.card-forth{
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+    background-color: #FAFAFA;
+    color: rgb(0, 0, 0);
+}
+
+.card-five{
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+    background-color: #FAFAFA;
+    color: rgb(2, 2, 2);
+}
+
+----plan---
+
+.plan{
+    width: 10%;
+    margin: auto;
+    position: center;
+    padding-top: 100px;
+    
+}
+
+.plan h1{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+
+.plan p{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.row{
+    margin-top: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.planone-col {
+    flex-basis: 20%;
+    background: #4F9DA6;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.plantwo-col {
+    flex-basis: 20%;
+    background: #FFEEEE;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.planthree-col {
+    flex-basis: 20%;
+    background: #FFF4D6;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+footer{
+    background:rgb(0, 0, 0);
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #FFEEEE;
+
+}
+
+.footer-content{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;    
+
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+
+.footer-content p{
+    max-width: 500px;
+    text-align: center;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+
+}
